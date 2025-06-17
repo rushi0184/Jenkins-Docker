@@ -21,6 +21,6 @@ pipeline {
                     docker run -d --name apache-container -p 80:80 apache-static-site
                 '''
             }
-        }
-    }
+        }
+    }
 }
